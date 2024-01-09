@@ -1,5 +1,7 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable no-undef */
+import { dimensiones } from './dimensiones.js'
+import { Rectangulo } from './rectangulos.js'
+import { mainLoop } from './mainLoop.js'
+
 const juego = document.getElementById('juego')
 document.addEventListener('DOMContentLoaded', () => {
   main.iniciarJuego()

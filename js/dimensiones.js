@@ -1,4 +1,4 @@
-const dimensiones = {
+export const dimensiones = {
   ancho: window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth,
   alto: window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight,
   ladoTiles: 100,

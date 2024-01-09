@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-class Rectangulo {
+export class Rectangulo {
   constructor (x, y, ancho, alto) {
     this.x = x
     this.y = y

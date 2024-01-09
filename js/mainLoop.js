@@ -1,4 +1,4 @@
-const mainLoop = {
+export const mainLoop = {
   idEjecucion: null,
   ultimoRegistro: 0,
   aps: 0,
