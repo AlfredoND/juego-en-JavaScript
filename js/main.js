@@ -21,7 +21,7 @@ const main = {
     juego.innerHTML = ' '
     for (let y = 0; y < dimensiones.obtenerTilesVertical(); y++) {
       for (let x = 0; x < dimensiones.obtenerTilesHorizontal(); x++) {
-        const rectangulo = new Rectangulo(x * dimensiones - ladoTiles, y * dimensiones.ladoTiles, dimensiones.ladoTiles, dimensiones.ladoTiles)
+        const rectangulo = new Rectangulo(x * dimensiones.ladoTiles, y * dimensiones.ladoTiles, dimensiones.ladoTiles, dimensiones.ladoTiles)
         rectangulo.insertarDOM()
       }
     }
